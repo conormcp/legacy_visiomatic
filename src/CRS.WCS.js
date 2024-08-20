@@ -412,7 +412,7 @@ L.CRS.WCS = L.extend({}, L.CRS, {
       projparam.natpole.lng = parseFloat(v, 10);
     }
     if ((v = key("LATPOLE", hdr))) {
-      projparam.natpol.lat = parseFloat(v, 10);
+      projparam.natpole.lat = parseFloat(v, 10);
     }
     if ((v = key("CD1_1", hdr))) {
       projparam.cd[0][0] = parseFloat(v, 10);

@@ -17,7 +17,7 @@
   "dependencies": {
     "jqplot-exported": "^1.0.9-pm.9",
     "jquery": "^3.5.1",
-    "leaflet": "1.6.0",
+    "leaflet": "^1.9.4",
     "leaflet-ruler": "https://github.com/gokertanrisever/leaflet-ruler",
     "spectrum-colorpicker": "^1.8.1"
   },
@@ -45,5 +45,6 @@
   "keywords": [
     "wcs",
     "astronomy"
-  ]
+  ],
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
