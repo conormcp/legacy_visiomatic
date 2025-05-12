@@ -224,7 +224,7 @@ class CacheSettings(BaseSettings):
 
 
 
-class AppSettings(BaseSettings):
+class AppSettings(BaseSettings, case_sensitive=True):
     host: BaseSettings = HostSettings()
     image: BaseSettings = ImageSettings()
     server: BaseSettings = ServerSettings()
